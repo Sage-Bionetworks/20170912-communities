@@ -81,11 +81,24 @@ https://www.synapse.org/#!Synapse:syn10170802/tables/
 
 ## Data partner - NIMH Data Archive
 
+![about nda](img/nda_about.png)
 
+https://data-archive.nimh.nih.gov/
+
+## NIMH Data Submission
+
+1. Obtain an NDA user account (https://ndar.nih.gov/request_access.html)
+1. Provide a [**Data Submission Agreement**](https://ndar.nih.gov/ndarpublicweb/Documents/NDAR%20Submission%20Request.pdf)
+1. Gain access to the BSMN data Collection
+1. Contact @kdaily (kenneth.daily@sagebase.org) with username and email used to create NDA account
+1. Create an Experiment, which provides information on acquisition, processing, or other parameters describing how the data was collected
+1. Complete subject, sample and tissue metadata manifests
+1. Use the NDA Validation and Upload Tool to submit the data (GUI or command line)
 
 ## Data flow (ideal)
 
 1. BSMN Lab
+1. NDA Experiment
 1. NDA Submission
 1. NDA API
 1. Synapse
