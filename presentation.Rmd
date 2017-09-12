@@ -1,0 +1,162 @@
+---
+title: "![Brain Somatic Mosaicism Network](img/BSMN8.png)"
+subtitle: "Data, Submissions, and Standards"
+author: "[Kenneth Daily](mailto:kenneth.daily@sagebase.org)"
+date: "2017-09-12"
+logo: "img/Sage_neon_logo1.png"
+output:
+  revealjs::revealjs_presentation:
+    theme: night
+    template: template.html
+    transition: fade
+    center: true
+    
+---
+
+## 
+
+![bsmn](img/science_paper_title.png)
+
+Science  28 Apr 2017: Vol. 356, Issue 6336, eaal1641<br/>DOI: [10.1126/science.aal1641](http://dx.doi.org/10.1126/science.aal1641)
+
+## BSMN Overview
+
+- Research has identified many heritable variants associated with susceptibility to neuropsychiatric disease, but do not fully account for disease risk
+- 80 billion neurons in the brain, large potential for somatic mutations arising from DNA damage
+- Long lifespan of neurons, direct relationship between neural circuits and behavior suggests potential for small populations of neurons affecting neurodevelopment and disease
+
+<span style="font-size: small">10.1126/science.aal1641</span>
+
+## BSMN Overview
+
+> somatic mosaicism: existence of different genomes within the cells of a monozygotic individual
+
+A number of other neurological diseases with somatic variants:
+
+- focal dysplasia, hemimegalencephaly, CLOVES, Proteus syndrome (PI3K-AKT-mTOR)
+- Focal cortical dysplasia, type II (PI3K-AKT-mTOR)
+- NF type 2 (RAS, PI3K-AKT-mTOR)
+
+- Examine collections of post mortem tissue from neurotypical individuals and patients with neuropsychiatric disorders
+- Apply genomic sequencing technologies to DNA from the brain and single neuronal genomes
+
+<span style="font-size: small">10.1126/science.aal1641</span>
+
+## BSMN Overview
+
+![approach](img/science_paper_fig1.png)
+
+<span style="font-size: small">10.1126/science.aal1641</span>
+
+## BSMN Variant Prioritization
+
+- Absence from the germ line
+- Recurrence and frequency of somatic variation
+- Mutation severity
+- Intersection with known disease loci and biochemical pathways
+- Intersection with brain expression and epigenomic data (BrainSpan, PsychEncode)
+
+<span style="font-size: small">10.1126/science.aal1641</span>
+
+## BSMN Partners and Studies
+
+![grants](img/bsmn_grants.png)
+
+Also: Reference Tissue Project
+
+## BSMN Reference Tissue Project
+
+- Brain from a single individual provided by the Lieber Institute
+- Consists of pulverized postmortem brain tissue, sorted nuclei from NeuN+ neurons and NeuN- cells, and dural fibroblasts
+
+![ref indiv info](img/ref_tissue_subject_info.png)
+
+## BSMN Reference Tissue Project
+
+- More than 40 planned experiments across 9 groups
+- WGS, WES, SLAV-Seq, Bionano optical genome imaging
+- Illumina and 10X Genomics platforms
+
+https://www.synapse.org/#!Synapse:syn10170802/tables/
+
+## Data partner - NIMH Data Archive
+
+
+
+## Data flow (ideal)
+
+1. BSMN Lab
+1. NDA Submission
+1. NDA API
+1. Synapse
+
+![nda](img/nimh.png) ![synapse](img/synapse_white-logo_round.png)
+
+## Data flow (real)
+
+1. BSMN Lab
+1. Me
+1. BSMN Lab
+1. NDA
+1. Me
+1. BSMN Lab
+1. NDA Submission
+1. (Me <-> NDA) $\times n$
+1. NDA API
+1. Synapse
+
+## Reference Tissue Project - Experiments
+
+> Capture experimental and technical conditions
+
+![nda experiments](img/bsmn_nda_experiments.png)
+
+## Reference Tissue Project - Submissions
+
+> The data files associated with an experiment
+
+![nda submissions](img/bsmn_nda_submissions.png)
+
+## Reference Tissue Project - Synapse
+
+![ref tissue project registered experiments](img/bsmn_ref_tissue_experiments_synapse.png)
+
+## Reference Tissue Project Data - Synapse
+
+https://www.synapse.org/bsmn_private (Tables)
+
+![ref tissue project file view](img/bsmn_synapse_ref_table.png)
+
+## Getting data
+
+http://docs.synapse.org/
+
+1. Use one of the Synapse clients (R or Python)
+1. Use one of the other Synapse clients (R or Python)
+1. Use the Synapse client to figure out AWS S3 path
+
+## Using the data
+
+Discussion Forum!
+
+https://www.synapse.org/#!Synapse:syn5902559/discussion/threadId=1464
+
+## Metadata and standards
+
+1. Sample metadata (some through NDA submission)
+1. Experiment metadata (from NDA submission)
+1. For use in analysis? (?????)
+
+## It should get easier
+
+1. Learned from reference tissue project
+1. NDA is getting better
+1. Keep communication lines open - early and often
+
+## Thank you
+
+> Send me updates on data generation in the Synapse Wiki!
+
+https://www.synapse.org/#!Synapse:syn5902559/wiki/415457
+
+[kenneth.daily@sagebase.org](mailto:kenneth.daily@sagebase.org)
